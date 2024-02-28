@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ 
+.header-class{
+    background-color: #fff8f3;
+    background-image:url('../images/header_bg.png'), url('/images/developer.png');
+    background-position: right bottom, left;
+    background-repeat: no-repeat;
+} 
+span{
+    color: #fd6e0a;
+}
+nav{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    padding: 75px 200px;
+}
+div ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.btn-one{
+    border: none;
+    background-color: #fd6e0a;
+    color: #fff;
+    border-radius: 5px;
+    height: 64px;
+    font-weight: 800;
+    padding: 0px 35px;
+    font-size: 20px;
+    margin: 30px;
+}
+/* Banner er kaj korbo */
+.banner{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    
+}
+.banner-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    
+}
+.Ma{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+}
+.Baba{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-top: 20px;
+
+}
+/* button ar kaj */
+
+.btn-outline{
+    border-radius: 5px;
+    border: 1px solid #fd6e0a;
+    height: 64px;
+    width: 160px;
+    background-color: rgba(255, 255, 255, 0);
+    color:#fd6e0a;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+ /* About ar kaj */
+.About-Me{
+       background-color: #fff8f3;
+       border-radius: 10px;
+       width: 1140px;
+       height: 550px;
+       margin: 130px 200px;
+}
+.About-sub{
+    padding: 130px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.About-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #181818;
+}
+.About-para{
+    font-size: 18px;
+    color: #757575;
+    
+}
+.About-table{
+    display: flex;
+    margin-top: 13px;
+    justify-content: space-around;
+}
+.soto{
+    font-size: 20px;
+    color: #757575;
+}
+.boro{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+/* What I Do */
+.what-i-do{
+      margin: 130px 200px;
+}
+.what-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.what-paragraph{
+    text-align: center;
+    padding: 13px 100px;
+    font-size: 18px;
+}
+
+/* what I do section */
+.skill-grandfather{
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+}
+.skill-father{
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-right: 20px;
+}
+.skill-title{
+   margin-top: 30px;
+   margin-bottom: 20px; 
+}
+/* This is Resume */
+.Resume{
+    /* display: flex; */
+    margin: 0px 200px;
+}
+.resume-title{
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.father-of-resume{
+    display: flex;
+    margin-top: 100px;
+}
+.son-of-resume{
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
