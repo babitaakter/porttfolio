@@ -162,7 +162,58 @@ ul li{
     display: flex;
     margin-top: 100px;
 }
-.son-of-resume{
-    /* display: flex; */
-    /* justify-content: space-between; */
+
+.Education{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.resume-sub-title{
+        color: #474747;
+        font-size: 25px;
+        font-weight: 700p;
+        margin-bottom: 10px;
+}
+.resume-sub-sub{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume-para{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.Experience{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.Experience-sub-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10;
+}
+.Experienc-sum-sum{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.Experienc-para{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+
+}
+hr{
+    width: 500px;
 }
